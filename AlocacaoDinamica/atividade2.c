@@ -1,3 +1,8 @@
+// Implemente uma função que receba como parâmetro um vetor de números reais (vet) de tamanho n e
+// retorne quantos números negativos estão armazenados neste vetor. Esta função deve obedecer ao
+// protótipo: int negativos (int n, float *vet)
+// Use alocação dinâmica. O valor de n é informado pelo usuário.
+
 #include <stdio.h>
 #include <stdlib.h>
 
