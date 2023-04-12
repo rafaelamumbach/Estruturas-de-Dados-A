@@ -44,7 +44,7 @@ void imprime_vetor (int n, int* vet){
 }
 
 int main(){
-	int *vet, n, i;
+	int *vet, n;
 	while (1)
 	{
 		n = le_tamanho ();
