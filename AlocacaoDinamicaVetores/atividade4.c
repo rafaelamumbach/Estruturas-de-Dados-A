@@ -23,7 +23,7 @@ int main(){
 
     //leitura do vetor, também na main:
     for ( i = 0; i < tamanho; i++){
-        printf("\nInforme o valor do vetor[%d]\n", i);
+        printf("\nInforme o valor do vetor[%d]: ", i);
         scanf("%d", &vet[i]);
     }
 
