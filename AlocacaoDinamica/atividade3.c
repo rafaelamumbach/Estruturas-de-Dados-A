@@ -1,3 +1,8 @@
+// Implemente uma função que receba como parâmetro um vetor de números inteiros (vet) de tamanho n e
+// inverta a ordem dos elementos armazenados neste vetor. Esta função deve obedecer ao protótipo:
+// void inverte (int n, int *vet)
+// Use alocação dinâmica. O valor de n é informado pelo usuário.
+
 #include <stdio.h>
 #include <stdlib.h>
 
