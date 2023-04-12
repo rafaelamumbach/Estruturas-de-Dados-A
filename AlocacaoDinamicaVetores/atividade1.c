@@ -3,6 +3,7 @@
 // deve ter como valor de retorno 1, se o ponto estiver dentro do retângulo, e 0 caso contrário, obedecendo
 // ao protótipo: int dentro_ret (int x0, int y0, int x1, int y1, int x, int y)
 
+
 #include <stdio.h>
 #include <stdlib.h>
 

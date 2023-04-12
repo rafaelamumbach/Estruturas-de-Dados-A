@@ -3,6 +3,7 @@
 // void inverte (int n, int *vet)
 // Use alocação dinâmica. O valor de n é informado pelo usuário.
 
+
 #include <stdio.h>
 #include <stdlib.h>
 
