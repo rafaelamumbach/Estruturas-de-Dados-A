@@ -1,3 +1,8 @@
+// Implemente uma função que receba como parâmetro uma matriz de inteiros de tamanho m x
+// n (alocada dinamicamente como um vetor de ponteiros) e imprima na tela os elementos
+// armazenados nesta matriz. Esta função deve obedecer ao protótipo:
+// void imprime_matriz (int m, int n, int** mat)]
+
 #include <stdio.h>
 #include <stdlib.h>
 
