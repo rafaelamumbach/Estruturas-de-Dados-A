@@ -9,8 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int** aloca_matriz (int m, int n)
-{
+int** aloca_matriz (int m, int n){
 	int** mat;
 	int i;
 	mat=(int**)malloc(m*sizeof(int*));
@@ -33,16 +32,14 @@ int** aloca_matriz (int m, int n)
 	return mat;
 }
 
-void desaloca_matriz (int m, int** mat)
-{
+void desaloca_matriz (int m, int** mat){
 	int i, j;
 	for (i=0;i<m;i++)
 		free(mat[i]);
 	free (mat);
 }
 
-void preenche_matriz (int m, int n, int **mat)
-{
+void preenche_matriz (int m, int n, int **mat){
 	int i, j;
 	for (i=0;i<m;i++)
 		for (j=0;j<n;j++)
@@ -52,8 +49,7 @@ void preenche_matriz (int m, int n, int **mat)
 		}
 }
 
-void mostra_matriz (int m, int n, int **mat)
-{
+void mostra_matriz (int m, int n, int **mat){
 	int i, j;
 	for (i=0;i<m;i++)
 	{
@@ -63,8 +59,7 @@ void mostra_matriz (int m, int n, int **mat)
 	}
 }
 
-int main()
-{
+int main(){
 	int **mat1;
 	int m, n, i, j;
 	printf ("\nInforme m e n: (linhas e colunas): ");
